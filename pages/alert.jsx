@@ -44,7 +44,7 @@ const Alert = () => {
 			</div>
 			<div className="flex w-full flex-wrap flex-col bg-white dark:bg-slate-700 p-7 rounded-lg shadow-md">
                 <div className="flex text-gray-800 dark:text-gray-100">
-                    <p>Official documentation sweet alert : <a href="https://sweetalert2.github.io/" target="_blank" className="text-blue-600">https://sweetalert2.github.io/</a></p>
+                    <p>Official documentation sweet alert : <a href="https://sweetalert2.github.io/" target="_blank" className="text-blue-600" rel="noreferrer">https://sweetalert2.github.io/</a></p>
                 </div>
                 <div className="flex mt-10 flex-col">
                     <p className="text-4xl text-gray-800 dark:text-gray-100">Example sweetAlert</p>
