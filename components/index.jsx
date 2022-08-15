@@ -7,7 +7,7 @@ const Components = {
     SideMenu,
     Footer,
     TopBar,
-    Header
+    Header,
 }
 
 export default Components

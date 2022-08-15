@@ -8,18 +8,20 @@ const MyApp = ({ Component, pageProps }) => {
 		<RecoilRoot>
 			<div className="flex w-full">
 				<Components.Header/>
-				<div className="flex min-h-screen">
+				<div className="flex min-h-screen h-screen">
 					<Components.SideMenu/>
 				</div>
-				<div className="flex flex-col w-full max-h-screen overflow-x-auto">
-					<div className="flex w-full">
+				<div className="flex flex-col w-full max-h-screen overflow-auto">
+					<div className="flex min-w-fit sticky top-0 bg-gray-100 dark:bg-slate-800">
 						<Components.TopBar/>
 					</div>
-					<div className="flex w-full">
-						<Component {...pageProps} />
-					</div>
-					<div className="flex w-full">
-						<Components.Footer/>
+					<div className="flex w-full min-w-fit flex-col">
+						<div className="flex">
+							<Component {...pageProps} />
+						</div>
+						<div className="flex w-full">
+							<Components.Footer/>
+						</div>
 					</div>
 				</div>
 			</div>
